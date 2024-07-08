@@ -1,0 +1,112 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+/* VARIABLES CSS */
+:root {
+	/* Colors */
+	--first-color: #272a3a;
+	--first-color-light: #8a8eaa;
+	--first-color-lighten: #f8f8fc;
+
+	/* Font and typography */
+	--body-font: 'Ubuntu', sans-serif;
+	--normal-font-size: 1rem;
+	--smaller-font-size: 0.813rem;
+}
+
+/* BASE */
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: var(--body-font);
+	background-color: var(--first-color-lighten);
+}
+
+h1 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* SECTION */
+.section,
+.container {
+	display: grid;
+}
+
+.section {
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	row-gap: 1rem;
+	padding: 2rem;
+	/*box-shadow: 4px 4px 16px #E1E1E1; */
+	border: 2px solid #e1e1e1;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+
+.card,
+.data {
+	display: flex;
+	align-items: center;
+}
+
+.card {
+	width: 360px;
+	justify-content: space-between;
+	padding: 0.75rem 1.25rem 0.75rem 0.75rem;
+	background-color: var(--first-color-lighten);
+	/* box-shadow: 4px 4px 16px #E1E1E1, -2px -2px 16px #FFF; */
+	border: 2px solid #e1e1e1;
+	border-radius: 2.5rem;
+}
+
+.img {
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	margin-right: 1rem;
+}
+
+.sesion_title {
+	font-size: var(--normal-font-size);
+	color: var(--first-color);
+	font-weight: 500;
+}
+
+.sesion_link {
+	font-size: var(--smaller-font-size);
+	color: var(--first-color-light);
+}
+
+.sesion_link > a {
+    padding-block: 4px;
+    display: block;
+}
+
+.social_link {
+	font-size: 16px;
+	margin: 0 0.375rem;
+	color: var(--first-color-light);
+	transition: 0.4s;
+}
