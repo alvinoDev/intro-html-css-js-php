@@ -1,0 +1,15 @@
+.gradient-dark {
+	background-image: linear-gradient(
+		to top,
+		rgba(52, 58, 64, 0.85) 5%,
+		transparent 95%
+	);
+}
+
+.gradient-white {
+	background-image: linear-gradient(
+		to top,
+		rgba(255, 255, 255, 0.85) 5%,
+		transparent 95%
+	);
+}

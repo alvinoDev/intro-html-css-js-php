@@ -40,7 +40,7 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand font-weight-bolder" href="#">TIENDITA WEB</a>
+                <a class="navbar-brand font-weight-bolder" href="#">CORTE REAL</a>
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
@@ -84,7 +84,7 @@
             <p class="float-right">
                 <a href="#" class="btn btn-light">Ir Arriba</a>
             </p>
-            <p> <b class="font-weight-bolder">TIENDITA WEB</b> © Todos los derechos reservados.</p>
+            <p> <b class="font-weight-bolder">CORTE REAL</b> © Todos los derechos reservados.</p>
         </div>
     </footer>
 
